@@ -1,0 +1,742 @@
+<!DOCTYPE HTML>
+<!--
+	Forty by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>vidhi yadav</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+
+	<style>
+
+		.thre{
+			padding: 20px;
+			/* background-color: black; */
+		}
+		.thr{
+			padding: 20px;
+			border: 2px solid wheat;
+			margin: 22px;
+			/* max-resolution: ; */
+			/* gap:20px; */
+		}
+
+		.conn{
+			/* background-color: #4e555d; */
+		}
+		.inp{
+			/* background-color: black; */
+		}
+.grid-card{
+	display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+	/* background-image: url("../../images/pic02.jpg"); */
+    padding: 20px;
+    /* background-color: white; */
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+	/* width: 50%; */
+}
+
+.skills-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+	/* background-image: url("../../images/pic02.jpg"); */
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+	width: 50%;
+}
+
+.category-card {
+	background-image: url("../../images/pic02.jpg");
+    background-color: #fff;
+    border-radius: 10px;
+	row-gap: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.3s;
+}
+
+.category-card::before{
+	/* row-gap: 220px; */
+}
+
+.category-card:hover {
+    transform: translateY(-10px);
+}
+
+.card-header {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    /* background-color: #007BFF; */
+    color: white;
+}
+
+.card-header img {
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+}
+
+.card-header h2 {
+    margin: 0;
+}
+
+.skills {
+    padding: 20px;
+    display: grid;
+	width: 200px;
+    grid-template-columns: 1fr 1fr;
+	/* repeat(auto-fit, minmax(100px, 1fr)) */
+    gap: 10px;
+}
+
+.skill {
+    /* background-color: #007BFF; */
+    color: white;
+    text-align: center;
+    padding: 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.inban{
+	padding: 22px;
+	margin: 20px;
+}
+
+.skill:hover {
+    background-color: #0056b3;
+}
+
+
+.page2{
+	margin: 200px;
+	/* background-image: url("../../images/360_F_643571785_S4L8iKo5lJ41QQkq3k17yMVfm804ufci.jpg"); */
+}
+	
+
+.page2 {
+    margin: 200px;
+}
+
+/* actions special  */
+ul.act {
+		display: -moz-flex;
+		display: -webkit-flex;
+		display: -ms-flex;
+		display: flex;
+		cursor: default;
+		list-style: none;
+		margin-left: -1em;
+		padding-left: 0;
+	}
+	
+	#header .actions:after {
+				background: #ffffff;
+				content: '';
+				height: 100vh;
+				left: 50%;
+				position: absolute;
+				top: 100%;
+				width: 1px;
+			}
+	/* #header input[type="submit"].primary:hover,
+				#header input[type="reset"].primary:hover,
+				#header input[type="button"].primary:hover,
+				#header button.primary:hover,
+				#header .button.primary:hover {
+					background-color: rgba(255, 255, 255, 0.125) !important;
+					color: #ffffff !important;
+				} */
+
+		ul.act {
+			padding: 0 0 0 1em;
+			vertical-align: middle;
+		}
+
+		ul.act {
+			-moz-justify-content: center;
+			-webkit-justify-content: center;
+			-ms-justify-content: center;
+			justify-content: center;
+			width: 100%;
+			margin-left: 0;
+		}
+
+			ul.act.special li:first-child {
+				padding-left: 0;
+			}
+
+		ul.act.stacked {
+			-moz-flex-direction: column;
+			-webkit-flex-direction: column;
+			-ms-flex-direction: column;
+			flex-direction: column;
+			margin-left: 0;
+		}
+
+			ul.act.stacked li {
+				padding: 1.3em 0 0 0;
+			}
+
+				ul.act.stacked li:first-child {
+					padding-top: 0;
+				}
+
+		ul.act.fit {
+			width: calc(100% + 1em);
+		}
+
+			ul.act.fit li {
+				-moz-flex-grow: 1;
+				-webkit-flex-grow: 1;
+				-ms-flex-grow: 1;
+				flex-grow: 1;
+				-moz-flex-shrink: 1;
+				-webkit-flex-shrink: 1;
+				-ms-flex-shrink: 1;
+				flex-shrink: 1;
+				width: 100%;
+			}
+
+				ul.act.fit li > * {
+					width: 100%;
+				}
+
+			ul.act.fit.stacked {
+				width: 100%;
+			}
+			
+		
+
+
+		#header input[type="submit"],
+		#header input[type="reset"],
+		#header input[type="button"],
+		#header button,
+		#header .button {
+			box-shadow: inset 0 0 0 1px #ffffff;
+			color: #ffffff !important;
+		}
+
+			#header input[type="submit"]:hover,
+			#header input[type="reset"]:hover,
+			#header input[type="button"]:hover,
+			#header button:hover,
+			#header .button:hover {
+				background-color: rgba(255, 255, 255, 0.125);
+			}
+
+			#header input[type="submit"]:active,
+			#header input[type="reset"]:active,
+			#header input[type="button"]:active,
+			#header button:active,
+			#header .button:active {
+				background-color: rgba(255, 255, 255, 0.25);
+			}
+
+			#header input[type="submit"].primary,
+			#header input[type="reset"].primary,
+			#header input[type="button"].primary,
+			#header button.primary,
+			#header .button.primary {
+				background-color: #ffffff;
+				box-shadow: inset 0 0 0 1px #ffffff !important;
+				color: #4686a0 !important;
+			}
+
+				/* #header input[type="submit"].primary:hover,
+				#header input[type="reset"].primary:hover,
+				#header input[type="button"].primary:hover,
+				#header button.primary:hover,
+				#header .button.primary:hover {
+					background-color: rgba(255, 255, 255, 0.125) !important;
+					color: #ffffff !important;
+				}
+
+				#header input[type="submit"].primary:active,
+				#header input[type="reset"].primary:active,
+				#header input[type="button"].primary:active,
+				#header button.primary:active,
+				#header .button.primary:active {
+					background-color: rgba(255, 255, 255, 0.25) !important;
+				} */
+
+		#header ul.major-icons li .icon {
+			border-color: #ffffff;
+		}
+
+		
+		#header .actions {
+			-moz-justify-content: center;
+			-webkit-justify-content: center;
+			-ms-justify-content: center;
+			justify-content: center;
+			margin-top: 2.5em;
+			margin-left: 0;
+			position: relative;
+		}
+
+			#header .actions li:first-child {
+				padding-left: 0;
+			}
+
+			#header .actions:after {
+				background: #ffffff;
+				content: '';
+				height: 100vh;
+				left: 50%;
+				position: absolute;
+				top: 100%;
+				width: 1px;
+			}
+
+		
+
+			#header .actions {
+				-moz-transition: -moz-transform 1.25s ease;
+				-webkit-transition: -webkit-transform 1.25s ease;
+				-ms-transition: -ms-transform 1.25s ease;
+				transition: transform 1.25s ease;
+				-moz-transition-delay: 1s;
+				-webkit-transition-delay: 1s;
+				-ms-transition-delay: 1s;
+				transition-delay: 1s;
+				-moz-transform: translateY(0);
+				-webkit-transform: translateY(0);
+				-ms-transform: translateY(0);
+				transform: translateY(0);
+				opacity: 1;
+			}
+
+		
+
+@media (max-width: 780px) {
+	.page2{
+		width: 400px;
+	}
+	.grid-card{
+		grid-template-columns: 1fr;
+	}
+    .skills-grid {
+        grid-template-columns: 1fr;
+        padding: 10px;
+        width: 100%;
+    }
+    
+    .category-card {
+        padding: 10px;
+    }
+    
+    .skills {
+        grid-template-columns: 1fr;
+    }
+    
+    .skill {
+        padding: 5px;
+    }
+}
+
+
+		@media screen and (max-width: 480px) {
+
+			ul.act:not(.fixed) {
+				-moz-flex-direction: column;
+				-webkit-flex-direction: column;
+				-ms-flex-direction: column;
+				flex-direction: column;
+				margin-left: 0;
+				width: 100% !important;
+			}
+
+				ul.act:not(.fixed) li {
+					-moz-flex-grow: 1;
+					-webkit-flex-grow: 1;
+					-ms-flex-grow: 1;
+					flex-grow: 1;
+					-moz-flex-shrink: 1;
+					-webkit-flex-shrink: 1;
+					-ms-flex-shrink: 1;
+					flex-shrink: 1;
+					padding: 1em 0 0 0;
+					text-align: center;
+					width: 100%;
+				}
+
+					ul.act:not(.fixed) li > * {
+						width: 100%;
+					}
+
+					ul.act:not(.fixed) li:first-child {
+						padding-top: 0;
+					}
+
+					ul.act:not(.fixed) li input[type="submit"],
+					ul.act:not(.fixed) li input[type="reset"],
+					ul.act:not(.fixed) li input[type="button"],
+					ul.act:not(.fixed) li button,
+					ul.act:not(.fixed) li .button {
+						width: 100%;
+					}
+
+						ul.act:not(.fixed) li input[type="submit"].icon:before,
+						ul.act:not(.fixed) li input[type="reset"].icon:before,
+						ul.act:not(.fixed) li input[type="button"].icon:before,
+						ul.act:not(.fixed) li button.icon:before,
+						ul.act:not(.fixed) li .button.icon:before {
+							margin-left: -0.5em;
+						}
+
+		}
+
+
+
+
+/* end actions special */
+	</style>
+	<body class="is-preload">
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Header -->
+					<header id="header" class="alt">
+						<a href="index.html" class="logo"><strong>portfolio</strong></a>
+						<!-- <a href="index.html" class="logo"><strong>portfolio</strong> <span>by HTML5 UP</span></a> -->
+						<nav>
+							<a href="#menu">Menu</a>
+						</nav>
+					</header>
+
+				<!-- Menu -->
+					<nav id="menu">
+						<ul class="links">
+							<!-- <li><a href="index.html">Home</a></li> -->
+							<li><a href="about.html">About</a></li>
+							<li><a href="landing.html">projects</a></li>
+							<li><a href="generic.html">Generic</a></li>
+							<li><a href="elements.html">Elements</a></li>
+						</ul>
+						<ul class="actions stacked">
+							<li><a href="#" class="button primary fit">Get Started</a></li>
+							<li><a href="#" class="button fit">Log In</a></li>
+						</ul>
+					</nav>
+
+				<!-- Banner -->
+					<section id="banner" class="major">
+						<div class="inner inban"  >
+							<header class="major">
+								<h1>Hi, I'm Vidhi yadav</h1>
+								<h3>Conputer Science Engineering</h3>
+
+								
+							</header>
+							<div class="content intt">
+								<h3>A third year undergraduate engineering student at <br> 
+									<span><h2><strong>National Institue of Technology , Patna</h2></span>
+								</h2>
+								<!-- <strong>National Institue of Technology , Patna<b>h</b></p> -->
+
+								<!-- <p>A responsive site template designed by HTML5 UP<br />
+								and released under the Creative Commons.</p> -->
+								<footer id="footer">
+									<div class="inner">
+										<ul class="icons">
+											<li><a href="#" class="icon brands alt fa-twitter"><span class="label">Twitter</span></a></li>
+											<li><a href="#" class="icon brands alt fa-facebook-f"><span class="label">Facebook</span></a></li>
+											<li><a href="#" class="icon brands alt fa-instagram"><span class="label">Instagram</span></a></li>
+											<li><a href="#" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
+											<li><a href="#" class="icon brands alt fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
+										</ul>
+										<ul class="copyright">
+											<!-- <li>&copy; Untitled</li><li>Design: <a href="https://html5up.net">HTML5 UP</a></li> -->
+										</ul>
+									</div>
+								</footer>
+								<ul class="actions">
+									<li><a href="https://drive.google.com/file/d/1AhRdaGOxFsJZ61NViEN_MDCuJsAtXZhr/view?usp=sharing" target="_blank" class="button next scrolly">Resume</a></li>
+								</ul>
+							</div>
+						</div>
+
+						
+					</section>
+					<!-- <section id="header">
+						<div class="inner"> -->
+							<div >
+								
+								<ul class="act special">
+									<li><a href="#mian2" class="button scrolly">Discover</a></li>
+								</ul>
+							</div>
+<!-- 					
+						<ul class="act special">
+							<li><a href="#mian2" class="button scrolly">Discover</a></li>
+						</ul> -->
+						<!-- </div>
+					</section> -->
+					
+
+				<!-- Main -->
+				 <div class="page2" id="mian2">
+
+					<header class="major ">
+						<h1>Skills</h1>
+					</header>
+					<div class="grid-card">
+
+						<div class="category-card">
+							<div class="card-header">
+								<img src="front-end-icon.png" alt="Front-end Icon">
+								<h2>Front-end</h2>
+							</div>
+							<div class="skills">
+								<div class="skill">React Js</div>
+								<div class="skill">HTML</div>
+								<div class="skill">CSS</div>
+								<div class="skill">JavaScript</div>
+								<div class="skill">Bootstrap</div>
+								<div class="skill">Flutter</div>
+
+							</div>
+						</div>
+						<div class="category-card">
+							<div class="card-header">
+								<img src="back-end-icon.png" alt="Back-end Icon">
+								<h2>Back-end</h2>
+							</div>
+							<div class="skills">
+								<div class="skill">Node.js</div>
+								<div class="skill">Express.js</div>
+								<div class="skill">MongoDB</div>
+								<div class="skill">SQL</div>
+
+							</div>
+						</div>
+						<div class="category-card">
+							<div class="card-header">
+								<img src="front-end-icon.png" alt="Front-end Icon">
+								<h2>ML</h2>
+							</div>
+							<div class="skills">
+								<div class="skill">Python</div>
+								<div class="skill">Jupyter</div>
+								<div class="skill">Google Colab</div>
+								<!-- <div class="skill">JavaScript</div> -->
+							</div>
+						</div>
+						<div class="category-card">
+							<div class="card-header">
+								<img src="front-end-icon.png" alt="Front-end Icon">
+								<h2>Soft Skills</h2>
+							</div>
+							<div class="skills">
+								<div class="skill">Problem solving</div>
+								<div class="skill">Communication</div>
+								<div class="skill">Leadership</div>
+								<div class="skill">Enitical Thinking </div>
+							</div>
+						</div>
+					</div>
+						<!-- <div class="skills-grid">
+							<div class="skill-item">
+								<h2>Frondend</h2>
+								
+							</div>
+							<div class="skill-item">CSS</div>
+							<div class="skill-item">JavaScript</div>
+							<div class="skill-item">Java</div>
+							<div class="skill-item">Python</div>
+							<div class="skill-item">Machine Learning</div>
+						</div> -->
+					
+				 </div>
+
+				 <div id="main">
+
+					<!-- One -->
+						<section id="one" >
+							<div class="inner">
+								<header class="major">
+									<h1>Projects</h2>
+								</header>
+								<!-- <p>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis magna sed nunc rhoncus condimentum sem. In efficitur ligula tate urna. Maecenas massa vel lacinia pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis libero. Nullam et orci eu lorem consequat tincidunt vivamus et sagittis magna sed nunc rhoncus condimentum sem. In efficitur ligula tate urna.</p> -->
+							</div>
+						</section>
+
+					<!-- Two -->
+						<section id="two" class="spotlights">
+							<section>
+								<a href="#" class="image">
+									<img src="images/60b9c51442cedd51532232ea_chat-app.jpg" alt="" data-position="center center" />
+								</a>
+								<div class="content">
+									<div class="inner">
+										<header class="major">
+											<h3>Chat Web app</h3>
+										</header>
+										<p>I have created the chat app , where you can communicate with any other.</p>
+										<ul class="actions">
+											<li><a href="#" class="button">Learn more</a></li>
+										</ul>
+									</div>
+								</div>
+							</section>
+							<section>
+								<a href="#" class="image">
+									<img src="images/verywells-mindfulness-app-tout-3fafecf29140402494edbe3af426cc5a.jpg" />
+								</a>
+								<div class="content">
+									<div class="inner">
+										<header class="major">
+											<h3>Meditaion App</h3>
+										</header>
+										<p>using the latest technologies and agile methodologies to deliver exceptional user experiences and measurable business outcomes.</p>
+										<ul class="actions">
+											<li><a href="#" class="button">Learn more</a></li>
+										</ul>
+									</div>
+								</div>
+							</section>
+							<section>
+								<a href="#" class="image">
+									<img src="images/60b9c51442cedd51532232ea_chat-app.jpg" alt="" data-position="25% 25%" />
+								</a>
+								<div class="content">
+									<div class="inner">
+										<header class="major">
+											<h3>Weather App</h3>
+										</header>
+										<p>using the latest technologies and agile methodologies to deliver exceptional user experiences and measurable business outcomes.</p>
+										<ul class="actions">
+											<li><a href="generic.html" class="button">Learn more</a></li>
+										</ul>
+									</div>
+								</div>
+							</section>
+						</section>
+
+					<!-- Three -->
+						<section id="three">
+							<div class="inner thre">
+								<header class="major ">
+									<h1>experience</h2>
+								</header>
+								<div class="thr">
+									<h2>GirlScript Summer of Code</h3>
+									<p>may 2024 -present</p>
+								</div>
+								<div class="thr">
+									<h2>Amazon Machine Learning School</h3>
+									<p>may 2024 -present</p>
+								</div>
+								
+								
+								<p></p>
+								<ul class="actions">
+									<li><a href="generic.html" class="button next">Learn More</a></li>
+								</ul>
+							</div>
+						</section>
+
+				</div>
+
+
+				
+					
+
+				<!-- Contact -->
+					<section id="contact conn">
+						<div class="inner">
+							<section>
+								<form method="post" action="#">
+									<div class="fields conn">
+										<div class="field half">
+											<label for="name">Name</label>
+											<input type="text" name="name" id="name" class="inp" />
+										</div>
+										<div class="field half">
+											<label for="email">Email</label>
+											<input type="text" name="email" id="email class="inp"" />
+										</div>
+										<div class="field">
+											<label for="message">Message</label>
+											<textarea name="message" id="message" class="inp" rows="6"></textarea>
+										</div>
+									</div>
+									<ul class="actions">
+										<li><input type="submit" value="Send Message" class="primary" /></li>
+										<li><input type="reset" value="Clear" /></li>
+									</ul>
+								</form>
+							</section>
+							<section class="split">
+								<section>
+									<div class="contact-method">
+										<span class="icon solid alt fa-envelope"></span>
+										<h3>Email</h3>
+										<a href="#">information@untitled.tld</a>
+									</div>
+								</section>
+								<section>
+									<div class="contact-method">
+										<span class="icon solid alt fa-phone"></span>
+										<h3>Phone</h3>
+										<span>(000) 000-0000 x12387</span>
+									</div>
+								</section>
+								<section>
+									<div class="contact-method">
+										<span class="icon solid alt fa-home"></span>
+										<h3>Address</h3>
+										<span>1234 Somewhere Road #5432<br />
+										Nashville, TN 00000<br />
+										United States of America</span>
+									</div>
+								</section>
+							</section>
+						</div>
+					</section>
+
+				<!-- Footer -->
+					<!-- <footer id="footer">
+						<div class="inner">
+							<ul class="icons">
+								<li><a href="#" class="icon brands alt fa-twitter"><span class="label">Twitter</span></a></li>
+								<li><a href="#" class="icon brands alt fa-facebook-f"><span class="label">Facebook</span></a></li>
+								<li><a href="#" class="icon brands alt fa-instagram"><span class="label">Instagram</span></a></li>
+								<li><a href="#" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
+								<li><a href="#" class="icon brands alt fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
+							</ul>
+							<ul class="copyright">
+								<!-- <li>&copy; Untitled</li><li>Design: <a href="https://html5up.net">HTML5 UP</a></li> -->
+							</ul>
+					</div>
+					</footer> -->
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>

@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+    <title>Document</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+	<link rel="stylesheet" href="assets/css/main.css" />
+	<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+</head>
+<style>
+
+    .first{
+        /* margin-left: 50px; */
+        /* margin-right: 500px; */
+        padding: 20px;
+    }
+
+    /* .first{
+        display: grid;
+        border: 2px solid green;
+        /* height: 100%; */
+        /* width: 100%; */
+/* 
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr; */
+
+    /* } */ 
+    .grid1{
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Two columns with equal width */
+    /* gap: 20px; Space between the columns */
+    max-width: 1200px; /* Maximum width of the container */
+    /* width: 100%; */
+    /* padding: 20px; */
+    box-sizing: border-box;
+    /* border:  2px solid green; */
+    /* height: 100%; */
+
+
+    gap: 20px; /* Space between the columns */
+    width: 100vw; /* Full width of the viewport */
+    height: 100vh; /* Full height of the viewport */
+    padding: 20px;
+    box-sizing: border-box;
+
+}
+
+.content {
+    /* background-color: #f0f0f0; */
+    padding: 20px;
+    border-radius: 8px;
+    overflow: auto;
+    /* border: 2px solid white; */
+}
+.photo{
+    padding: 20px;
+    /* border: 2px solid white; */
+    border-radius: 8px;
+    /* height: ; */
+}
+.photo img {
+    width: 100%;
+    height: 100%;
+    /* padding: 20px; */
+    /* border-radius: 8px; */
+    /* border: 2px solid white; */
+}
+@media (max-width: 760px) {
+    .grid1{
+        grid-template-columns: 1fr; /* Stack the columns vertically */
+        grid-template-rows: auto auto; /* Adjust the rows to fit the content */
+        height: auto; /* Allow the container to grow based on content height */
+    }
+
+    .photo img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover; /* Ensure the image covers its container without distortion */
+    }
+}
+</style>
+<body>
+    <div class="is-preload">
+        <div id="wrapper">
+            <header id="header" class="alt">
+                <a href="index.html" class="logo"><strong>portfolio</strong></a>
+                <!-- <a href="index.html" class="logo"><strong>portfolio</strong> <span>by HTML5 UP</span></a> -->
+                <nav>
+                    <a href="#menu">Menu</a>
+                </nav>
+            </header>
+
+            <nav id="menu">
+                <ul class="links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="landing.html">projects</a></li>
+                    <li><a href="generic.html">Generic</a></li>
+                    <li><a href="elements.html">Elements</a></li>
+                </ul>
+                <ul class="actions stacked">
+                    <li><a href="#" class="button primary fit">Get Started</a></li>
+                    <li><a href="#" class="button fit">Log In</a></li>
+                </ul>
+            </nav>
+
+            <div class="first">
+                <header class="major">
+                    <h1>ABOUT</h1>
+                </header>
+                <div class="grid1">
+                    <div class="content">
+                        <h1>hello, my name is vidhi</h1>
+                        <p>You might talk about your origin story, your team, highlight awards or recognitions, or share photos. Tap into your creativity. You’ve got this. The way you tell your story online can make all the difference.</p>
+
+                           <p> Don’t worry about sounding professional. Sound like you. There are over 1.5 million websites out there, but your story is what’s going to separate this one from the rest. If you read the words back and don’t hear your own voice in your head, that’s a good sign you still have more work to do.</p>
+
+                    </div>
+                    <div class="photo">
+                        <img src="./images/WIN_20230710_20_21_16_Pro.jpg">
+                        
+                    </div>
+                </div>
+
+            </div>
+            
+            <div class="sic">
+                <section>
+                    <div class="inn">
+                        
+                    </div>
+                </section>
+                <!-- <section id="one">
+                    <div class="inner">
+                        <header class="major">
+                            <h2>Sed amet aliquam</h2>
+                        </header>
+                        <p>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis magna sed nunc rhoncus condimentum sem. In efficitur ligula tate urna. Maecenas massa vel lacinia pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis libero. Nullam et orci eu lorem consequat tincidunt vivamus et sagittis magna sed nunc rhoncus condimentum sem. In efficitur ligula tate urna.</p>
+                    </div>
+                </section> -->
+            </div>
+
+
+
+
+        </div>
+
+    </div>
+
+    <script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+    
+</body>
+</html>
